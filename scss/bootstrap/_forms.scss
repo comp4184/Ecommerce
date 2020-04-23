@@ -213,13 +213,13 @@ select.form-control-lg {
 }
 
 .form-check-input {
-  position: absolute;
-  margin-top: $form-check-input-margin-y;
-  margin-left: -$form-check-input-gutter;
+    position: absolute;
+    margin-top: $form-check-input-margin-y;
+    margin-left: -$form-check-input-gutter;
 
-  &:disabled ~ .form-check-label {
-    color: $text-muted;
-  }
+    &:disabled ~ .form-check-label {
+        color: $text-dark; //    color: $text-muted; Manual Edit to make form text darker
+    }
 }
 
 .form-check-label {
