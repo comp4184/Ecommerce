@@ -48,7 +48,6 @@
               </div>
             </li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	         <!-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> -->
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	          <li class="nav-item cta cta-colored"><a href="cart.html" class="nav-link"><span class="icon-shopping_cart"></span>[1]</a></li>
 
@@ -179,14 +178,8 @@
 		        e.preventDefault();
 		        // Get the field name
 		        var quantity = parseInt($('#quantity').val());
-
 		        // If is not undefined
-
-		            $('#quantity').val(quantity + 1);
-
-
-		            // Increment
-
+		            $('#quantity').val(quantity + 1);// Increment
 		    });
 
 		     $('.quantity-left-minus').click(function(e){
@@ -195,7 +188,6 @@
 		        // Get the field name
 		        var quantity = parseInt($('#quantity').val());
 		        // If is not undefined
-
 		            // Increment
 		            if(quantity>0){
 		            $('#quantity').val(quantity - 1);

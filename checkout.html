@@ -171,7 +171,7 @@
 		    						<span>Subtotal</span>
 
 		    						<span>$5.00</span>
-		    					</p>	
+		    					</p>
 
 		    					</p>
 		    					<p class="d-flex">
@@ -194,7 +194,7 @@
 								</div>
 	          	</div>
 	          </div>
-          </div> <!-- .col-md-8 -->
+          </div>
         </div>
       </div>
 
@@ -229,14 +229,8 @@
 		        e.preventDefault();
 		        // Get the field name
 		        var quantity = parseInt($('#quantity').val());
-
 		        // If is not undefined
-
-		            $('#quantity').val(quantity + 1);
-
-
-		            // Increment
-
+		            $('#quantity').val(quantity + 1);// Increment
 		    });
 
 		     $('.quantity-left-minus').click(function(e){
@@ -245,7 +239,6 @@
 		        // Get the field name
 		        var quantity = parseInt($('#quantity').val());
 		        // If is not undefined
-
 		            // Increment
 		            if(quantity>0){
 		            $('#quantity').val(quantity - 1);
